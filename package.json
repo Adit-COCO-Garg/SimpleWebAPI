@@ -1,0 +1,24 @@
+{
+  "name": "simplewebapi",
+  "version": "1.0.0",
+  "description": "IGME 430 HW",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "nodemon": "nodemon --watch ./src ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adit-COCO-Garg/SimpleWebAPI.git"
+  },
+  "author": "Adit @ RIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adit-COCO-Garg/SimpleWebAPI/issues"
+  },
+  "homepage": "https://github.com/Adit-COCO-Garg/SimpleWebAPI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
